@@ -1,0 +1,6 @@
+#!/bin/bash
+
+branch="$(git branch | grep $1)"
+current_branch_mark="* "
+
+git checkout ${branch/$current_branch_mark/}
