@@ -1,0 +1,3 @@
+#!/bin/bash
+
+pipenv run python replay.py --time_from='2019-07-01 00:00:00' --resolution=60 --currency=JPY --trader_id=269325
